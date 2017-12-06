@@ -4,8 +4,14 @@ Neual style transfer makes use of convolutional neural networks to combine the f
 
 Here's an example that combines the features of image of hill station captured by me and [Starry night](https://en.wikipedia.org/wiki/The_Starry_Night)
 
+<<<<<<< HEAD
 ![style](images/scene.jpg) ![hill](images/hill.jpg)    
  ![image](output/1020.jpg)
+=======
+![style](images/scene.jpg) 
+![hill](images/hill.jpg)    
+ ![image](output/generated_image.jpg)
+>>>>>>> 06c0b616335d885a23f7cc9ca8382924ea2073a3
 
 
 # Usage
@@ -33,9 +39,9 @@ You can change the address in nn module.
 
 ### Optimization options:
 
--num_iterations: 200.
--optimizer: Adam, lbfgs may be used and may give better results but will consume more memory.
--learning_rate: Learning rate to use with the ADAM optimizer. Default is 2.0
+- num_iterations: 200.
+- optimizer: Adam, lbfgs may be used and may give better results but will consume more memory.
+- learning_rate: Learning rate to use with the ADAM optimizer. Default is 2.0
 
 ### Implementation details
 
