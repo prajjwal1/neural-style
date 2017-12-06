@@ -4,14 +4,8 @@ Neual style transfer makes use of convolutional neural networks to combine the f
 
 Here's an example that combines the features of image of hill station captured by me and [Starry night](https://en.wikipedia.org/wiki/The_Starry_Night)
 
-<<<<<<< HEAD
-![style](images/scene.jpg) ![hill](images/hill.jpg)    
- ![image](output/1020.jpg)
-=======
-![style](images/scene.jpg) 
-![hill](images/hill.jpg)    
- ![image](output/generated_image.jpg)
->>>>>>> 06c0b616335d885a23f7cc9ca8382924ea2073a3
+![hill](images/hill.jpg)  ![style](images/scene.jpg)    
+ ![output](output/1020.png)
 
 
 # Usage
